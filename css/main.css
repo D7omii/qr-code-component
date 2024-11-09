@@ -61,6 +61,7 @@ a {
 
 .card {
   background-color: var(--White-color);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
   text-align: center;
   width: 320px;
   height: fit-content;
@@ -88,8 +89,9 @@ a {
   padding: 24px 16px;
 }
 
-.card h2 {
+.card h1 {
   color: var(--Slate-color-900);
+  line-height: 1.2;
   font-size: 22px;
   font-weight: 700;
   margin: 0 0 16px;
@@ -97,8 +99,10 @@ a {
 
 .card p {
   color: var(--Slate-color-500);
+  line-height: 1.4;
   font-size: 15px;
   font-weight: 400;
+  letter-spacing: 0.2px;
   margin: 0;
 }
 
